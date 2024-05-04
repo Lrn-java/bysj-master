@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <div th:replace="include/bootstrap :: bootstrap"></div>
+</head>
+<body style="background-color: #EEEEEE;">
+<div th:replace="include/TeacherNav :: TeacherNav"></div>
+<div class="jumbotron" style="height: 630px;padding-top: 50px; padding-bottom: 0px; margin-left: 18%;">
+    <div style="padding-left: 20px;">
+        <p>
+            &emsp;欢迎来到在线考试系统/您当前所在位置：教师账户<br />
+        </p>
+        <p>
+            &emsp;&emsp;该账户下共有四大功能：系统功能，考试管理，题库管理，成绩管理<br />
+        </p>
+        <p>
+            系统功能：用于教师对学生的添加，删除，修改，查询，以及查看个人信息<br />
+        </p>
+        <p>
+            考试管理：查看考试信息和创建新考试<br />
+        </p>
+        <p>
+            题库管理：添加题目类型，添加题目，查看题目信息，删除题目<br />
+        </p>
+        <p>
+            成绩管理：查看学生成绩信息<br />
+        </p>
+        <p>
+            <a class="btn btn-primary btn-large" href="https://www.baidu.com">了解更多信息</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
